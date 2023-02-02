@@ -4,7 +4,7 @@ const getWeather = () =>{
 
 searchBtn = document.getElementById("searchBtn");
 
-let searchUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=184ddd95f0a2169d4eef4fe4f53f0a44`;
+let searchUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=184ddd95f0a2169d4eef4fe4f53f0a44`;
 
 fetch(searchUrl)
 .then(response => response.json())
