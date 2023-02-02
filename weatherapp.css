@@ -1,0 +1,222 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    background-image: url(backgroundweather.jpg);
+
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  main {
+display: flex;
+height: 100vh;   
+}
+
+  #current-weather {
+
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 54%;
+    text-align: center;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+
+  
+  aside {
+     position: absolute;
+      left: 0%;
+      top: 100px;
+    width: 30%;
+    height: 100%;
+    background-color: skyblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+    
+}
+
+  #five-day-forecast {
+      position: absolute;
+    
+      top: 70%;
+      left: 30%;
+      display: flex;
+      width: 70%;
+      height: 40%;
+      justify-content: space-between;
+      font-family: Arial, sans-serif;
+      margin: 10px;
+      
+
+    }
+  
+    #citySearch{
+        text-align: center;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+  aside h2 {
+    margin-bottom: 20px;
+  }
+  
+  aside ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  aside li {
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .weather-info {
+    width: 80%;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .temperature {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 18px;
+  }
+  
+  #city-name {
+    font-size: 36px;
+    margin: 10px 0;
+  }
+  
+  #weather-icon {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0;
+  }
+  
+  #temperature {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  #weather-description {
+    font-size: 18px;
+    margin: 10px 0;}
+
+      
+      .forecast-day {
+        text-align: center;
+        width: 20%;
+      }
+      
+      .day {
+        font-size: 18px;
+        margin: 10px 0;
+      }
+      
+      .temperature {
+        font-size: 14px;
+        margin: 10px 0;
+      }
+
+    .five-day{
+        position: absolute;
+       border: 2px solid black ;
+       top: 0px;
+       font-size: 20px;
+       width: 20%;
+       left: 0%;
+       height: 100%;
+    }
+
+    .five-day1{
+        position: absolute;
+       border: 2px solid black ;
+       top: 0px;
+       font-size: 20px;
+       width: 20%;
+       left: 20%;
+       height: 100%;
+    }
+
+    .five-day2{
+        position: absolute;
+       border: 2px solid black ;
+       top: 0px;
+       font-size: 20px;
+       width: 20%;
+       left: 40%;
+        height: 100%;
+    }
+
+    .five-day3{
+        position: absolute;
+       border: 2px solid black ;
+       top: 0px;
+       font-size: 20px;
+       width: 20%;
+       left: 60%;   
+       height: 100%;
+    }
+
+    .five-day4{
+        position: absolute;
+       border: 2px solid black ;
+       top: 0px;
+       font-size: 20px;
+       width: 20%;
+       left: 80%;
+       height: 100%;
+        
+    }
+
+    .fiveDayForeCastCityName{
+      font-size: 15px;
+   
+    }
+
+    .fiveDayForeCast{
+      padding-top: 5%;
+      text-align: center;
+      font-size: 15px;
+      font-weight: 600;
+      justify-content: center;
+      border-radius: 10px;
+      /*background-color: rgba(46, 86, 196, 0.925); */
+      background-image: url(backgroundweather.jpg);
+      
+    }
+
+    .weatherText{
+      position: relative;
+      top: 20%;
+      background-image: url(backgroundweather.jpg);
+      width: 80%;
+      height: 43%;
+      text-align: center;
+      font-size: 15px;
+      font-weight: 600;
+      justify-content: center;
+      border-radius: 10px;
+      margin: auto;
+      
+    }
+
+    .mainWeather {
+     border-radius: 10px;
+    }
